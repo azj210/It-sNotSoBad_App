@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Element" representedClassName="Element" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="score" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sem_link" optional="YES" attributeType="String"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="semesterr" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sem" inverseName="elementss" inverseEntity="Sem"/>
+    </entity>
+    <entity name="Sem" representedClassName="Sem" syncable="YES">
+        <attribute name="key" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="sem_gpa" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="elementss" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Element" inverseName="semesterr" inverseEntity="Element"/>
+    </entity>
+    <elements>
+        <element name="Element" positionX="15025.23046875" positionY="1128.16015625" width="128" height="118"/>
+        <element name="Sem" positionX="14672.19921875" positionY="1128.78125" width="128" height="103"/>
+    </elements>
+</model>
