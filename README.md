@@ -1,7 +1,7 @@
 # StudentHealthTracker
 It’s Not So Bad is a lighthearted yet realistic app that applies the college grading system to everyday life
 
-Complete instructions, sample screens, flowchart, compilation instructions are under ItsNotSoBad folder. Code for the project can be found under It'sNotSoBad /iOS_Final.
+Complete instructions, sample screens, flowchart, compilation instructions are under AppGuide while code for the project can be found under iOS_Final.
 
 User Instructions:
 1. You will be given a blank state upon starting the app for the first time. When you start the
