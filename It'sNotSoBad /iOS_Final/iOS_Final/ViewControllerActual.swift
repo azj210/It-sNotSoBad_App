@@ -104,7 +104,7 @@ class ViewControllerActual: UIViewController {
     }
     
     //*******
-    //extra function to return a list of all semester objects
+    //return a list of all semester objects
     //use this for setting up the tableview
     //*******
     func semestersList() -> [NSManagedObject]{

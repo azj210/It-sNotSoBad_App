@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  iOS_Final
 //
-//  Created by Michelle Choi on 11/15/19.
-//  Copyright © 2019 Michelle Choi. All rights reserved.
+//  Created by Alex Jiang on 11/15/19.
+//  Copyright © 2019 Alex Jiang. All rights reserved.
 //
 
 import UIKit

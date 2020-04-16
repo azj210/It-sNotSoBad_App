@@ -36,7 +36,6 @@ class UpdateSemesterViewController: UIViewController {
     //    //*******
     //    //function 3 fetching semester element
     //    //********
-    //when fetching element run this function in a loop of length 6 to get all the elements
     func fetchSemesterElement(semester: NSManagedObject) -> [NSManagedObject]{
         let fetchRequestElement = NSFetchRequest<NSFetchRequestResult>(entityName: "Element")
         var elements = [NSManagedObject]()
