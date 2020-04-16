@@ -2,6 +2,7 @@
 It’s Not So Bad is a lighthearted yet realistic app that applies the college grading system to everyday life
 
 Code is under It'sNotSoBad /iOS_Final/iOS_Final/ 
+
 Complete instructions, sample screens, flowchart, compilation instructions are under AppGuide while code for the project can be found under It'sNotSoBad /AppGuide/.
 
 User Instructions:
